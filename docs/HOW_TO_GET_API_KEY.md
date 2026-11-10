@@ -55,7 +55,7 @@ After login you will see the **💻 Developer Console**.
 ### cURL Example
 
 ```bash
-curl -N -X POST https://api-hub.cloud/api/v1/chat/completions \
+curl -N -X POST https://xgpt10.cloud.run/api/v1/chat/completions \
   -H "Authorization: Bearer ah_your_api_key_here" \
   -H "Content-Type: application/json" \
   -d '{

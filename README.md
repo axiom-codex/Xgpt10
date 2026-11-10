@@ -38,6 +38,14 @@ Instead of managing separate keys for every provider, you get **one OpenAI-compa
 
 ---
 
+## 🔗 Base URL
+
+```text
+https://xgpt10.cloud.run/api/v1/chat/completions
+```
+
+---
+
 ## 📚 Documentation
 
 | 📄 Document | 💬 Description |
@@ -70,7 +78,7 @@ You can query these providers through a **single endpoint**:
 ## ⚡ Quick Start — Example API Call
 
 ```bash
-curl -N -X POST https://api-hub.cloud/api/v1/chat/completions \
+curl -N -X POST https://xgpt10.cloud.run/api/v1/chat/completions \
   -H "Authorization: Bearer ah_your_api_key_here" \
   -H "Content-Type: application/json" \
   -d '{

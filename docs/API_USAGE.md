@@ -1,23 +1,36 @@
-# Xgpt10 API Usage Guide
+<div align="center">
 
-**Base Endpoint (OpenAI Compatible):**  
-`https://api-hub.cloud/api/v1/chat/completions`
+# 💻 Xgpt10 API Usage Guide
 
-**Website:** [https://xgpt10.cloud.run](https://xgpt10.cloud.run)
+### ⚡ OpenAI-Compatible • Streaming Ready • Multi-Provider
+
+[![API](https://img.shields.io/badge/🚀_API-Live-00C853?style=for-the-badge)](https://xgpt10.cloud.run)
+
+</div>
 
 ---
 
-## Authentication
+## 🔗 Base Endpoint
 
-All requests require your API key in the header:
-
+```text
+https://api-hub.cloud/api/v1/chat/completions
 ```
+
+> 🌐 Website: [https://xgpt10.cloud.run](https://xgpt10.cloud.run)
+
+---
+
+## 🔑 Authentication
+
+All requests require your API key:
+
+```text
 Authorization: Bearer ah_your_api_key_here
 ```
 
 ---
 
-## Request Format
+## 📦 Request Format
 
 ```json
 {
@@ -32,16 +45,16 @@ Authorization: Bearer ah_your_api_key_here
 
 ### Main Parameters
 
-| Parameter   | Type    | Description                                      |
-|-------------|---------|--------------------------------------------------|
-| `provider`  | string  | Which provider to use (gemini, groq, etc.)       |
-| `model`     | string  | Specific model name                              |
-| `messages`  | array   | Chat messages (OpenAI format)                    |
-| `stream`    | boolean | `true` for SSE streaming, `false` for full reply |
+| Parameter | Type | Description |
+|:---|:---|:---|
+| 🌐 `provider` | string | Which provider to use (gemini, groq, etc.) |
+| 🤖 `model` | string | Specific model name |
+| 💬 `messages` | array | Chat messages (OpenAI format) |
+| 📡 `stream` | boolean | `true` = SSE streaming, `false` = full reply |
 
 ---
 
-## cURL Example (Streaming)
+## ⚡ cURL Example (Streaming)
 
 ```bash
 curl -N -X POST https://api-hub.cloud/api/v1/chat/completions \
@@ -57,7 +70,7 @@ curl -N -X POST https://api-hub.cloud/api/v1/chat/completions \
 
 ---
 
-## Python Example
+## 🐍 Python Example
 
 ```python
 import requests
@@ -85,7 +98,7 @@ for line in response.iter_lines():
 
 ---
 
-## JavaScript / Node.js Example
+## 💻 JavaScript / Node.js Example
 
 ```javascript
 const response = await fetch("https://api-hub.cloud/api/v1/chat/completions", {
@@ -108,27 +121,35 @@ const reader = response.body.getReader();
 
 ---
 
-## Supported Providers (Examples)
+## 🌐 Supported Providers (Examples)
 
-- `gemini`
-- `groq`
-- `openrouter`
-- `huggingface`
-- `chatgpt`
-- `grok`
-- `kimi`
+| Provider Code | Name |
+|:---|:---|
+| `gemini` | 🧠 Google Gemini |
+| `groq` | ⚡ Groq |
+| `openrouter` | 🔗 OpenRouter |
+| `huggingface` | 🤖 Hugging Face |
+| `chatgpt` | 💬 ChatGPT |
+| `grok` | 🤖 Grok (xAI) |
+| `kimi` | 🌟 Kimi |
 
-Model names depend on the provider (example: `gemini-3.8-flash`).
-
----
-
-## Notes
-
-- Always use `https`
-- Keep your API key secret
-- Streaming (`stream: true`) is recommended for better user experience
-- The API is designed to be OpenAI-compatible for easy integration
+> Model names depend on the provider (example: `gemini-3.8-flash`).
 
 ---
 
-**Get your key here:** [https://xgpt10.cloud.run](https://xgpt10.cloud.run)
+## 💡 Notes
+
+- 🔒 Always use `https`
+- 🔑 Keep your API key secret
+- 📡 Streaming (`stream: true`) is recommended for better UX
+- 🔗 The API is designed to be **OpenAI-compatible** for easy integration
+
+---
+
+<div align="center">
+
+### 🚀 [Get Your Free API Key →](https://xgpt10.cloud.run)
+
+✨ **One Key. All Models. Unlimited Possibilities.** ✨
+
+</div>

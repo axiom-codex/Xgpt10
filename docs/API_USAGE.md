@@ -13,7 +13,7 @@
 ## 🔗 Base Endpoint
 
 ```text
-https://api-hub.cloud/api/v1/chat/completions
+https://xgpt10.cloud.run/api/v1/chat/completions
 ```
 
 > 🌐 Website: [https://xgpt10.cloud.run](https://xgpt10.cloud.run)
@@ -57,7 +57,7 @@ Authorization: Bearer ah_your_api_key_here
 ## ⚡ cURL Example (Streaming)
 
 ```bash
-curl -N -X POST https://api-hub.cloud/api/v1/chat/completions \
+curl -N -X POST https://xgpt10.cloud.run/api/v1/chat/completions \
   -H "Authorization: Bearer ah_your_api_key_here" \
   -H "Content-Type: application/json" \
   -d '{
@@ -75,7 +75,7 @@ curl -N -X POST https://api-hub.cloud/api/v1/chat/completions \
 ```python
 import requests
 
-url = "https://api-hub.cloud/api/v1/chat/completions"
+url = "https://xgpt10.cloud.run/api/v1/chat/completions"
 headers = {
     "Authorization": "Bearer ah_your_api_key_here",
     "Content-Type": "application/json"
@@ -101,7 +101,7 @@ for line in response.iter_lines():
 ## 💻 JavaScript / Node.js Example
 
 ```javascript
-const response = await fetch("https://api-hub.cloud/api/v1/chat/completions", {
+const response = await fetch("https://xgpt10.cloud.run/api/v1/chat/completions", {
   method: "POST",
   headers: {
     "Authorization": "Bearer ah_your_api_key_here",

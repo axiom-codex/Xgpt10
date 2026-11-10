@@ -25,6 +25,17 @@ Instead of managing separate keys for every provider, you get one OpenAI-compati
 
 ---
 
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| [Features](docs/FEATURES.md) | Complete list of all website features |
+| [How to Get API Key](docs/HOW_TO_GET_API_KEY.md) | Step-by-step guide to create your API key |
+| [API Usage](docs/API_USAGE.md) | cURL, Python, JavaScript examples |
+| [Release Notes](RELEASE_NOTES.md) | v1.0.0 release notes |
+
+---
+
 ## Supported Providers & Models
 
 You can query these providers through a single endpoint:
@@ -57,6 +68,20 @@ curl -N -X POST https://api-hub.cloud/api/v1/chat/completions \
 
 You can also use the same endpoint with Python, JavaScript, or any OpenAI-compatible client library.
 
+Full examples → [API Usage Guide](docs/API_USAGE.md)
+
+---
+
+## How to Create API Key
+
+1. Go to [https://xgpt10.cloud.run](https://xgpt10.cloud.run)
+2. Sign in with Google / GitHub / X / Email (or use Instant Preview)
+3. Open Developer Console
+4. Click **Generate API Key**
+5. Copy your key (`ah_...`) and use it in requests
+
+Detailed guide → [How to Get API Key](docs/HOW_TO_GET_API_KEY.md)
+
 ---
 
 ## Developer Console Features
@@ -83,26 +108,6 @@ Visit **[https://xgpt10.cloud.run](https://xgpt10.cloud.run)** to:
 - **Fast** — Gateway latency under 15ms
 - **Streaming ready** — Native SSE support for real-time responses
 - **Developer friendly** — Instant keys and live console
-
----
-
-## Repository Status
-
-This repository currently serves as the official documentation and landing page for the Xgpt10 platform.
-
-- **Live Product**: [https://xgpt10.cloud.run](https://xgpt10.cloud.run)
-- **Owner**: [sumitjilowa34-oss](https://github.com/sumitjilowa34-oss)
-
----
-
-## Blog Outline (Planned Content)
-
-**Topic**: Top 5 Free AI Models to Integrate in 2026
-
-1. **Introduction** — The rise of accessible AI and how multi-model platforms empower developers.
-2. **Body** — Highlight top free tiers (Gemini Flash, Claude, Groq, etc.). Discuss speed, token limits, and multimodal capabilities.
-3. **Technical Integration** — Using a unified API gateway for seamless switching between models.
-4. **Conclusion** — The future of cost-effective app development + call to test these models on Xgpt10.
 
 ---
 

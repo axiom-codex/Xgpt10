@@ -1,48 +1,56 @@
-# How to Create API Key on Xgpt10
+<div align="center">
 
-**Website:** [https://xgpt10.cloud.run](https://xgpt10.cloud.run)
+# 🔑 How to Create API Key on Xgpt10
 
-This guide shows you exactly how to generate your unified API key.
+### ✨ Get your free unified API key in under 1 minute
 
----
+[![Get Key](https://img.shields.io/badge/🚀_Get_API_Key-xgpt10.cloud.run-00D9FF?style=for-the-badge)](https://xgpt10.cloud.run)
 
-## Method 1: Instant Developer Preview (No Sign-In)
-
-1. Go to **[https://xgpt10.cloud.run](https://xgpt10.cloud.run)**
-2. Click on **"Instant Developer Preview (No Sign-In Needed)"**
-3. You will get temporary access to try the platform
-4. Generate or view a sample API key for testing
-
-> Best for quick testing.
+</div>
 
 ---
 
-## Method 2: Sign In & Get Permanent API Key (Recommended)
+## ⚡ Method 1: Instant Developer Preview (No Sign-In)
 
-### Step 1: Open the Website
-Visit → [https://xgpt10.cloud.run](https://xgpt10.cloud.run)
+```text
+1. 🌐 Go to https://xgpt10.cloud.run
+2. 👉 Click "Instant Developer Preview (No Sign-In Needed)"
+3. ✨ You get temporary access to try the platform
+4. 📋 Generate or view a sample API key for testing
+```
 
-### Step 2: Sign In
+> 💡 Best for **quick testing**.
+
+---
+
+## 🌟 Method 2: Sign In & Get Permanent API Key (Recommended)
+
+### Step ① — Open the Website
+🌐 Visit → **[https://xgpt10.cloud.run](https://xgpt10.cloud.run)**
+
+### Step ② — Sign In
 Choose any login method:
 
-- **Sign in with Google** (1-Click + Biometric Passkey supported)
-- **GitHub**
-- **Twitter (X)**
-- **Email** (enter email + password or create account)
+| Method | Details |
+|:---|:---|
+| 🔴 **Google** | 1-Click + Biometric Passkey supported |
+| 💻 **GitHub** | Quick developer login |
+| 🐦 **Twitter (X)** | Social login |
+| 📧 **Email** | Create account or login |
 
-### Step 3: Open Developer Console
-After login you will see the **Developer Console**.
+### Step ③ — Open Developer Console
+After login you will see the **💻 Developer Console**.
 
-### Step 4: Generate API Key
-- Click on **Generate API Key** / **Create Key**
-- Your key will look like: `ah_xxxxxxxxxxxxxxxxxxxx`
-- **Copy** and save it securely
+### Step ④ — Generate API Key
+- ✨ Click **Generate API Key** / **Create Key**
+- 🔑 Your key will look like: `ah_xxxxxxxxxxxxxxxxxxxx`
+- 📋 **Copy** and save it securely
 
-> Never share your API key publicly.
+> ⚠️ **Never share your API key publicly.**
 
 ---
 
-## How to Use the API Key
+## 🚀 How to Use the API Key
 
 ### cURL Example
 
@@ -60,23 +68,26 @@ curl -N -X POST https://api-hub.cloud/api/v1/chat/completions \
 
 ### Important Headers
 
-| Header              | Value                          |
-|---------------------|--------------------------------|
-| Authorization       | `Bearer ah_your_api_key_here`  |
-| Content-Type        | `application/json`             |
+| Header | Value |
+|:---|:---|
+| 🔑 Authorization | `Bearer ah_your_api_key_here` |
+| 📦 Content-Type | `application/json` |
 
 ---
 
-## Tips
+## 💡 Pro Tips
 
-- Keep your API key private
-- You can regenerate the key anytime from the Developer Console
-- Use `stream: true` for real-time responses
-- You can change `provider` and `model` as needed
+- 🔒 Keep your API key private
+- 🔄 You can regenerate the key anytime from Developer Console
+- 📡 Use `stream: true` for real-time responses
+- 🔀 Change `provider` and `model` as needed
 
 ---
 
-## Need Help?
+<div align="center">
 
-- Website: [https://xgpt10.cloud.run](https://xgpt10.cloud.run)
-- GitHub Repo: [https://github.com/sumitjilowa34-oss/Xgpt10](https://github.com/sumitjilowa34-oss/Xgpt10)
+### 🚀 [Create Your API Key Now →](https://xgpt10.cloud.run)
+
+🌐 [Website](https://xgpt10.cloud.run) • 💻 [GitHub](https://github.com/sumitjilowa34-oss/Xgpt10)
+
+</div>
